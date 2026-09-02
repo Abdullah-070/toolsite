@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
   title: "RAM vs ROM: What the Difference Actually Means for You",
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 export default function RamVsRom() {
   return (
     <article className="max-w-3xl mx-auto px-5 py-14 prose-article">
+      <BackButton />
       <p className="text-sm text-slate mb-2">Hardware Explained</p>
       <h1 className="font-display text-3xl md:text-4xl font-semibold leading-tight mb-6">
         RAM vs ROM: What the Difference Actually Means for You
@@ -144,11 +146,11 @@ export default function RamVsRom() {
         <p className="text-sm text-slate mb-4">Keep reading</p>
         <div className="grid sm:grid-cols-2 gap-4">
           <a
-            href="/blog"
+            href="/blog/hardware/ssd-vs-hdd"
             className="block p-4 border border-ink/10 rounded-md hover:border-rust transition-colors"
           >
-            <span className="text-sm font-medium">More hardware explainers</span>
-            <span className="block text-xs text-slate mt-1">SSD vs HDD, i5 vs i7, and more coming soon</span>
+            <span className="text-sm font-medium">SSD vs HDD explained</span>
+            <span className="block text-xs text-slate mt-1">The other storage mix-up people search for</span>
           </a>
           <a
             href="/tools/dev"

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import BackButton from "@/components/BackButton";
 
 export default function JsonFormatter() {
   const [input, setInput] = useState("");
@@ -35,6 +36,7 @@ export default function JsonFormatter() {
 
   return (
     <div className="max-w-4xl mx-auto px-5 py-16">
+      <BackButton />
       <h1 className="font-display text-3xl font-semibold mb-2">JSON Formatter</h1>
       <p className="text-slate mb-8 max-w-lg">
         Paste messy or minified JSON below and format it, or shrink it back down. Runs entirely in your browser, nothing is sent anywhere.

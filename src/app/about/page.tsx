@@ -1,6 +1,9 @@
+import BackButton from "@/components/BackButton";
+
 export default function About() {
   return (
     <div className="max-w-2xl mx-auto px-5 py-16 prose-article">
+      <BackButton />
       <h1 className="font-display text-3xl font-semibold mb-6">About</h1>
       <p>
         Dev Toolkit started as a personal learning project: a place to build

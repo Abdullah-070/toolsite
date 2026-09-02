@@ -1,6 +1,9 @@
+import BackButton from "@/components/BackButton";
+
 export default function PrivacyPolicy() {
   return (
     <div className="max-w-2xl mx-auto px-5 py-16 prose-article">
+      <BackButton />
       <h1 className="font-display text-3xl font-semibold mb-6">Privacy Policy</h1>
       <p>
         This site does not require an account and does not sell personal
