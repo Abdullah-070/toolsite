@@ -7,8 +7,17 @@ export default function DevTools() {
         being built here next. Each one will get its own page and its own
         short guide on how to use it.
       </p>
-      <div className="p-5 border border-dashed border-ink/20 rounded-md text-slate text-sm">
-        Coming soon.
+      <div className="grid sm:grid-cols-2 gap-4">
+        <a
+          href="/tools/dev/json-formatter"
+          className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors"
+        >
+          <h2 className="font-medium">JSON Formatter</h2>
+          <p className="text-sm text-slate mt-1">Format or minify JSON instantly, in your browser.</p>
+        </a>
+        <div className="p-5 border border-dashed border-ink/20 rounded-md text-slate text-sm">
+          Regex tester, coming soon.
+        </div>
       </div>
     </div>
   );

@@ -27,6 +27,12 @@ export default function RamVsRom() {
         almost opposite jobs.
       </p>
 
+      {/*
+        Image slot: once you have a labeled RAM-vs-ROM diagram, add it here using next/image, e.g.:
+        <Image src="/images/ram-vs-rom-diagram.webp" alt="Diagram comparing RAM and ROM" width={700} height={400} className="rounded-md my-8" />
+        Keep it under ~100KB and in .webp format so it doesn't slow the page down.
+      */}
+
       <h2>The short version</h2>
       <p>
         RAM is where your device keeps everything it's actively working on
@@ -133,6 +139,26 @@ export default function RamVsRom() {
         The next time you're comparing specs, that distinction alone should
         make the numbers on the box a lot easier to read.
       </p>
+
+      <div className="not-prose mt-14 pt-8 border-t border-ink/10">
+        <p className="text-sm text-slate mb-4">Keep reading</p>
+        <div className="grid sm:grid-cols-2 gap-4">
+          <a
+            href="/blog"
+            className="block p-4 border border-ink/10 rounded-md hover:border-rust transition-colors"
+          >
+            <span className="text-sm font-medium">More hardware explainers</span>
+            <span className="block text-xs text-slate mt-1">SSD vs HDD, i5 vs i7, and more coming soon</span>
+          </a>
+          <a
+            href="/tools/dev"
+            className="block p-4 border border-ink/10 rounded-md hover:border-rust transition-colors"
+          >
+            <span className="text-sm font-medium">Try the developer tools</span>
+            <span className="block text-xs text-slate mt-1">Free browser-based utilities, no sign-up</span>
+          </a>
+        </div>
+      </div>
     </article>
   );
 }

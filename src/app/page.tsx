@@ -21,7 +21,7 @@ export default function Home() {
           >
             <h3 className="font-medium">Developer tools</h3>
             <p className="text-sm text-slate mt-1">
-              JSON formatter, regex tester, and other quick utilities. Coming online first.
+              JSON formatter is live. Regex tester and more utilities coming next.
             </p>
           </a>
           <div className="block p-5 border border-ink/10 rounded-md opacity-60">
@@ -32,7 +32,7 @@ export default function Home() {
       </section>
 
       <section className="py-12 border-t border-ink/10">
-        <h2 className="font-display text-xl font-semibold mb-6">Hardware explained</h2>
+        <h2 className="font-display text-xl font-semibold mb-6">Latest blogs</h2>
         <a
           href="/blog/hardware/ram-vs-rom"
           className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors max-w-md"
