@@ -121,11 +121,11 @@ export default function SsdVsHdd() {
         <p className="text-sm text-slate mb-4">Keep reading</p>
         <div className="grid sm:grid-cols-2 gap-4">
           <a
-            href="/blog/hardware/ram-vs-rom"
+            href="/blog/hardware/i5-vs-i7-generation"
             className="block p-4 border border-ink/10 rounded-md hover:border-rust transition-colors"
           >
-            <span className="text-sm font-medium">RAM vs ROM explained</span>
-            <span className="block text-xs text-slate mt-1">The other memory mix-up people search for</span>
+            <span className="text-sm font-medium">i5 vs i7 explained</span>
+            <span className="block text-xs text-slate mt-1">The other half of a laptop buying decision</span>
           </a>
           <a
             href="/tools/dev"
