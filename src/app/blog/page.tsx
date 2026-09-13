@@ -31,6 +31,18 @@ const posts = [
     excerpt: "What JSON is, why it's everywhere, and how to format, validate, and convert it.",
     category: "Dev",
   },
+  {
+    href: "/blog/dev/what-is-base64",
+    title: "Base64 explained: a beginner's guide to encoding and decoding",
+    excerpt: "What Base64 is, why it exists, and how to encode or decode it in Python and JavaScript.",
+    category: "Dev",
+  },
+  {
+    href: "/blog/dev/what-is-jwt",
+    title: "JWT explained: a beginner's guide to JSON Web Tokens",
+    excerpt: "What a JWT is, how JWT authentication works, and how to decode one yourself.",
+    category: "Dev",
+  },
 ];
 
 export default function BlogsHub() {

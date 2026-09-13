@@ -27,6 +27,24 @@ export default function DevBlog() {
             What JSON is, why it's everywhere, and how to format, validate, and convert it.
           </p>
         </a>
+        <a
+          href="/blog/dev/what-is-base64"
+          className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors"
+        >
+          <h2 className="font-medium">Base64 explained: a beginner's guide to encoding and decoding</h2>
+          <p className="text-sm text-slate mt-1">
+            What Base64 is, why it exists, and how to encode or decode it in Python and JavaScript.
+          </p>
+        </a>
+        <a
+          href="/blog/dev/what-is-jwt"
+          className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors"
+        >
+          <h2 className="font-medium">JWT explained: a beginner's guide to JSON Web Tokens</h2>
+          <p className="text-sm text-slate mt-1">
+            What a JWT is, how JWT authentication works, and how to decode one yourself.
+          </p>
+        </a>
       </div>
     </div>
   );

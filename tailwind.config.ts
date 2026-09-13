@@ -8,9 +8,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#1b1f23",
+        ink: "#0b2347",
         paper: "#faf9f6",
-        rust: "#a5533e",
+        rust: "#ff7a16",
         slate: "#4a5560",
       },
       fontFamily: {

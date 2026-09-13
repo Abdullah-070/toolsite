@@ -25,6 +25,20 @@ export default function DevTools() {
           <h2 className="font-medium">Regex Tester</h2>
           <p className="text-sm text-slate mt-1">Test patterns against your text with live highlighted matches.</p>
         </a>
+        <a
+          href="/tools/dev/base64-encoder-decoder"
+          className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors"
+        >
+          <h2 className="font-medium">Base64 Encoder / Decoder</h2>
+          <p className="text-sm text-slate mt-1">Convert text to Base64 or decode it back, instantly.</p>
+        </a>
+        <a
+          href="/tools/dev/jwt-decoder"
+          className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors"
+        >
+          <h2 className="font-medium">JWT Decoder</h2>
+          <p className="text-sm text-slate mt-1">Decode a JSON Web Token and see its header and payload instantly.</p>
+        </a>
       </div>
     </div>
   );
