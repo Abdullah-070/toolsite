@@ -17,11 +17,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/dev/what-is-json",
     "/blog/dev/what-is-base64",
     "/blog/dev/what-is-jwt",
+    "/blog/dev/what-is-uuid",
     "/tools/dev",
     "/tools/dev/json-formatter",
     "/tools/dev/regex-tester",
     "/tools/dev/base64-encoder-decoder",
     "/tools/dev/jwt-decoder",
+    "/tools/dev/uuid-generator",
     "/tools/student",
   ];
 

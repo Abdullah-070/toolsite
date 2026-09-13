@@ -4,8 +4,8 @@ import SiteNav from "@/components/SiteNav";
 
 export const metadata: Metadata = {
   title: {
-    default: "Dev Toolkit — small tools and clear explanations",
-    template: "%s | Dev Toolkit",
+    default: "DevToolsKit Hub — small tools and clear explanations",
+    template: "%s | DevToolsKit Hub",
   },
   description:
     "Free browser-based developer tools plus plain-language explanations of hardware and computing basics.",
@@ -30,7 +30,7 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className="border-t border-ink/10 mt-20">
           <div className="max-w-5xl mx-auto px-5 py-8 text-sm text-slate flex flex-wrap justify-between gap-4">
-            <span>© {new Date().getFullYear()} Dev Toolkit</span>
+            <span>© {new Date().getFullYear()} DevToolsKit Hub</span>
             <div className="flex gap-5">
               <a href="/privacy-policy" className="hover:text-ink">Privacy</a>
               <a href="/about" className="hover:text-ink">About</a>

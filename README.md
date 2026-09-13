@@ -1,4 +1,4 @@
-# Dev Toolkit
+# DevToolsKit Hub
 
 Personal learning project: free browser-based dev tools plus plain-language
 hardware explainer articles.

@@ -6,7 +6,7 @@ export default function About() {
       <BackButton />
       <h1 className="font-display text-3xl font-semibold mb-6">About</h1>
       <p>
-        Dev Toolkit started as a personal learning project: a place to build
+        DevToolsKit Hub started as a personal learning project: a place to build
         real, working tools while learning development, deployment, and SEO
         from the ground up. Alongside the tools, this site also covers
         computer hardware basics in plain language, for anyone trying to

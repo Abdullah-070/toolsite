@@ -24,8 +24,8 @@ export default function SiteNav() {
     <header className="border-b border-ink/10 relative z-20">
       <nav className="max-w-5xl mx-auto flex items-center justify-between px-5 py-4">
         <a href="/" className="font-display text-lg font-semibold flex items-center gap-2">
-          <img src="/logo.jpg" alt="dev-toolkit logo" className="w-8 h-8 object-contain" />
-          dev-toolkit
+          <img src="/logo.png" alt="DevToolsKit Hub logo" className="h-9 w-auto object-contain" />
+          DevToolsKit Hub
         </a>
 
         <button

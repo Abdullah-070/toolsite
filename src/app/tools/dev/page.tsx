@@ -39,6 +39,13 @@ export default function DevTools() {
           <h2 className="font-medium">JWT Decoder</h2>
           <p className="text-sm text-slate mt-1">Decode a JSON Web Token and see its header and payload instantly.</p>
         </a>
+        <a
+          href="/tools/dev/uuid-generator"
+          className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors"
+        >
+          <h2 className="font-medium">UUID / GUID Generator</h2>
+          <p className="text-sm text-slate mt-1">Generate random, version 4 UUIDs, one or a hundred at a time.</p>
+        </a>
       </div>
     </div>
   );

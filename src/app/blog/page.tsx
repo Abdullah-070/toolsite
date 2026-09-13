@@ -43,6 +43,12 @@ const posts = [
     excerpt: "What a JWT is, how JWT authentication works, and how to decode one yourself.",
     category: "Dev",
   },
+  {
+    href: "/blog/dev/what-is-uuid",
+    title: "UUID and GUID explained: what they are and why they're random",
+    excerpt: "Why unique IDs need to be random, and how to generate one instantly.",
+    category: "Dev",
+  },
 ];
 
 export default function BlogsHub() {

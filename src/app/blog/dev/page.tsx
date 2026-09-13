@@ -45,6 +45,15 @@ export default function DevBlog() {
             What a JWT is, how JWT authentication works, and how to decode one yourself.
           </p>
         </a>
+        <a
+          href="/blog/dev/what-is-uuid"
+          className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors"
+        >
+          <h2 className="font-medium">UUID and GUID explained: what they are and why they're random</h2>
+          <p className="text-sm text-slate mt-1">
+            Why unique IDs need to be random, and how to generate one instantly.
+          </p>
+        </a>
       </div>
     </div>
   );
