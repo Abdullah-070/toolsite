@@ -29,7 +29,7 @@ export default function HardwareBlog() {
           </p>
         </a>
         <a
-          href="/blog/hardware/i5-vs-i7-generation"
+          href="/blog/hardware/i5-vs-i7"
           className="block p-5 border border-ink/10 rounded-md hover:border-rust transition-colors"
         >
           <h2 className="font-medium">i5 vs i7: why a newer i5 can beat an older i7</h2>

@@ -14,10 +14,22 @@ const posts = [
     category: "Hardware",
   },
   {
-    href: "/blog/hardware/i5-vs-i7-generation",
+    href: "/blog/hardware/i5-vs-i7",
     title: "i5 vs i7: why a newer i5 can beat an older i7",
     excerpt: "The generation number matters more than the tier label once you're comparing across years.",
     category: "Hardware",
+  },
+  {
+    href: "/blog/dev/what-is-regex",
+    title: "Regex explained: a beginner's guide to regular expressions",
+    excerpt: "What regex is, why it's useful, and how to write and test your first pattern in Python and JavaScript.",
+    category: "Dev",
+  },
+  {
+    href: "/blog/dev/what-is-json",
+    title: "JSON explained: a beginner's guide to JavaScript Object Notation",
+    excerpt: "What JSON is, why it's everywhere, and how to format, validate, and convert it.",
+    category: "Dev",
   },
 ];
 
