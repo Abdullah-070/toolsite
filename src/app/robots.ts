@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://devtoolskit.tech/sitemap.xml",
+    sitemap: "https://www.devtoolskit.tech/sitemap.xml",
   };
 }

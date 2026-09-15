@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
+
+export const metadata: Metadata = {
+  title: "Developer Tools",
+  description:
+    "Free browser-based developer tools: JSON formatter, regex tester, Base64 encoder/decoder, JWT decoder, and UUID generator. No sign-up required.",
+};
 
 export default function DevTools() {
   return (
@@ -6,9 +13,10 @@ export default function DevTools() {
       <BackButton />
       <h1 className="font-display text-3xl font-semibold mb-4">Developer Tools</h1>
       <p className="text-slate mb-8 max-w-lg">
-        The first tools (JSON formatter, regex tester, UUID generator) are
-        being built here next. Each one will get its own page and its own
-        short guide on how to use it.
+        Five free tools are live so far: a JSON formatter, a regex tester, a
+        Base64 encoder and decoder, a JWT decoder, and a UUID generator.
+        Everything runs locally in your browser, nothing you paste is sent
+        to a server. More utilities are added regularly.
       </p>
       <div className="grid sm:grid-cols-2 gap-4">
         <a

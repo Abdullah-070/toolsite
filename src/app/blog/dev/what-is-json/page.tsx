@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
-  title: "JSON Explained: A Beginner's Guide to JavaScript Object Notation",
+  title: "JSON Explained for Beginners",
   description:
     "What JSON actually is, why it's used everywhere, how to read and write it, and how to format, validate, and convert it without writing any code.",
 };

@@ -14,8 +14,8 @@ const config: Config = {
         slate: "#4a5560",
       },
       fontFamily: {
-        display: ["Source Serif 4", "Georgia", "serif"],
-        body: ["Inter", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "Georgia", "serif"],
+        body: ["var(--font-body)", "system-ui", "sans-serif"],
       },
     },
   },

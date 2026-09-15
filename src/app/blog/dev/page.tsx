@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
+
+export const metadata: Metadata = {
+  title: "Dev Explained",
+  description:
+    "Beginner-friendly guides to regex, JSON, Base64, JWT, and UUIDs, each linked to a free tool you can try instantly.",
+};
 
 export default function DevBlog() {
   return (

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
-  title: "Base64 Explained: A Beginner's Guide to Encoding and Decoding",
+  title: "Base64 Explained for Beginners",
   description:
     "What Base64 actually is, why it's used to encode text and files, and how to encode or decode it online, in Python, and in JavaScript.",
 };

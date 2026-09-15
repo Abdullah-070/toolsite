@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
+
+export const metadata: Metadata = {
+  title: "Blogs",
+  description:
+    "Hardware comparisons and developer tool guides, written in plain language for beginners and non-coders.",
+};
 
 const posts = [
   {

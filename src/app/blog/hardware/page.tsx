@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
+
+export const metadata: Metadata = {
+  title: "Hardware Explained",
+  description:
+    "Plain-language comparisons of RAM vs ROM, SSD vs HDD, and i5 vs i7, for anyone buying a laptop or building a PC.",
+};
 
 export default function HardwareBlog() {
   return (

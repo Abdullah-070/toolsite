@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
-  title: "UUID and GUID Explained: What They Are and Why They're Random",
+  title: "UUID and GUID Explained for Beginners",
   description:
     "What a UUID or GUID actually is, why they're almost never the same twice, and how to generate one online without writing any code.",
 };

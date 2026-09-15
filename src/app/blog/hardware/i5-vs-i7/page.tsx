@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
-  title: "i5 vs i7: Why an Older i7 Can Actually Be Worse Than a Newer i5",
+  title: "i5 vs i7: Which Processor Is Better?",
   description:
     "A plain explanation of Intel's i5 vs i7 naming, why generation matters as much as the number, and how to avoid the classic mistake of picking the wrong one.",
 };

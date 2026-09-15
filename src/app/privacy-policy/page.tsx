@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "How DevToolsKit Hub handles data: browser-based tools process input locally and this site does not sell personal data.",
+};
 
 export default function PrivacyPolicy() {
   return (

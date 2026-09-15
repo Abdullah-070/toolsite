@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
+
+export const metadata: Metadata = {
+  title: "Student Tools",
+  description:
+    "A GPA calculator and citation generator are coming soon to DevToolsKit Hub's student tools section.",
+};
 
 export default function StudentTools() {
   return (

@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "DevToolsKit Hub is a personal learning project: free browser-based developer tools plus plain-language hardware explainers.",
+};
 
 export default function About() {
   return (

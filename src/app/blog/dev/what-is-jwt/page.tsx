@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
-  title: "JWT Explained: A Beginner's Guide to JSON Web Tokens",
+  title: "JWT Explained for Beginners",
   description:
     "What a JWT actually is, how JSON Web Token authentication works, and how to decode a JWT online to see what's really inside it.",
 };

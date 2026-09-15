@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
-  title: "SSD vs HDD: Which One Actually Matters for Your Next Laptop",
+  title: "SSD vs HDD: Which One Matters More?",
   description:
     "A plain explanation of SSDs and HDDs, why one feels so much faster than the other, and which one actually matters when you're choosing a laptop.",
 };

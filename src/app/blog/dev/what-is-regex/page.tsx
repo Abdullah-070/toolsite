@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
-  title: "Regex Explained: A Beginner's Guide to Regular Expressions",
+  title: "Regex Explained for Beginners",
   description:
     "What regex actually is, why it's useful even if you're not a programmer, and how to read, write, and test your first regular expressions in Python and JavaScript.",
 };

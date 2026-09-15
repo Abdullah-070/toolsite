@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
-  title: "RAM vs ROM: What the Difference Actually Means for You",
+  title: "RAM vs ROM: What's the Difference?",
   description:
     "A plain-language explanation of RAM and ROM, what each one actually does in your device, and why the difference matters when you're buying a laptop or phone.",
 };
